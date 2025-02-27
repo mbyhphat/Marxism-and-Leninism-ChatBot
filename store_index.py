@@ -18,7 +18,7 @@ embeddings = load_embeddings()
 
 pc = Pinecone(api_key=PINECONE_API_KEY)
 
-index_name = "mlbot"
+index_name = "ctribot"
 
 pc.create_index(
     name=index_name,
