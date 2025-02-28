@@ -8,3 +8,5 @@ This is a chatbot designed to make learning Philosophy Marx-Lenin and Political 
     <img src="assets/web example 1.png" width="48%">
     <img src="assets/web example 2.png" width="48%">
 </p>
+
+
