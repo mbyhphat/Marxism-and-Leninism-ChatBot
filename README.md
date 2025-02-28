@@ -4,6 +4,7 @@
 
 ## **Introduction**
 This is a chatbot designed to make learning Philosophy Marx-Lenin and Political Economics of Marxism and Leninism easier. It only provides answers in Vietnamese as well as answers to Marxism and Leninism related questions. 
+
 Contributions:
 * Designed a Retrieval-Augmented Generation (RAG) pipeline to improve answer relevance.
 * Processed and chunked textual data, generated embeddings using OpenAI, and stored them in Pinecone vector database for efficient retrieval.
