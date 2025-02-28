@@ -13,7 +13,7 @@ This is a chatbot designed to make learning Philosophy Marx-Lenin and Political 
 
 ### **1. Clone the repository:**
 
-    ```bash
+    ```
     git clone https://github.com/mbyhphat/Marxism-and-Leninism-ChatBot.git
     cd Marxism-and-Leninism-ChatBot
     ```
