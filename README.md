@@ -9,4 +9,49 @@ This is a chatbot designed to make learning Philosophy Marx-Lenin and Political 
     <img src="assets/web example 2.jpg" width="48%">
 </p>
 
+## **Installation**
 
+### **1. Clone the repository:**
+
+    ```bash
+    git clone https://github.com/mbyhphat/Marxism-and-Leninism-ChatBot.git
+    cd Marxism-and-Leninism-ChatBot
+    ```
+
+### **2. Create and activate Conda environment (Recommended):**
+
+    ```bash
+    conda create -n ctribot python=3.10 -y
+    conda activate ctribot
+    ```
+    Install the requirements :
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+### **3. Create a `.env` file in the root directory and add your Pinecone & openai credentials as follows:**
+
+    ```ini
+    PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    ```
+### **4. Run code**
+
+#### If you run the repository for the first time, run the following command to store embeddings to pinecone
+
+     ```bash
+    python store_index.py
+    ```
+
+#### Run the following command to use the bot
+
+    ```bash
+    python app.py
+    ```
+
+## Techstack Used:
+- Python
+- LangChain
+- Flask
+- GPT
+- Pinecone
